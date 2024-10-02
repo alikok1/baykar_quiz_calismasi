@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baykar Quiz Uygulaması</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div id="quiz-container">
+    <h1>Baykar Quiz Uygulaması</h1>
+    <div style="display: flex; align-items: center;">
+        <div>Soru:</div>
+        <div style="margin-left: 20px;" id="question"></div>
+    </div>
+
+    <div id="options"></div>
+    <div id="timer"></div>
+    <button id="next" style="display: none;">Sonraki Soru</button>
+</div>
+<div id="result-container" style="display: none;">
+    <h2>Sonuçlar</h2>
+    <table id="result-table">
+        <thead>
+        <tr>
+            <th>Soru No</th>
+            <th>Soru</th>
+            <th>Cevap</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <button id="restart">Tekrar Başlat</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
